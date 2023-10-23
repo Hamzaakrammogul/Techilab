@@ -19,7 +19,7 @@ const Company = () => {
             <div className="container mx-auto flex flex-col md:flex-row ">
                 <div className="flex flex-col space-y-5 md:w-2/4 md:mt-32 2xl:mt-44 ">
                     <div>
-                        <h1 className="text-4xl leading-tight font-semibold md:text-6xl">
+                        <h1 className="text-4xl leading-tight font-semibold mt-16 md:mt-0 md:text-6xl">
                             We Build<br />
                             Agile <span className="text-logoGreen">Software</span> <br />
                             Development Teams

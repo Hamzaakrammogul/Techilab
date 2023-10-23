@@ -25,7 +25,7 @@ const HireADeveloper = () => {
                     <h1 className="text-5xl text-logoBlue font-semibold">We Will Help You!</h1>
                     <p className="text-2xl text-logoBlue">Hard-tp -fill tech positions are no longer an issue!</p>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col md:flex-row  md:justify-between">
                     {hireDeveloperData.map((item) => (
                         <HireDeveloperCard
                             key={item.id}
@@ -40,13 +40,13 @@ const HireADeveloper = () => {
 
         {/* Add section here */}
         <div className="container mx-auto mt-36">
-            <div className="flex">
-                <div className="flex flex-col space-y-10 w-1/3 pr-5">
+            <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col space-y-10 md:w-1/3 pr-5">
                     <div><h1 className="text-5xl font-semibold text-logoBlue">How Techilab Dedicated Team Works</h1></div>
                     <div><p className="text-2xl text-logoGreen">We'll seamlessly integrate software experts, enabling you to quickly increase your development capabilities.</p></div>
                     <div><Button title={"Talk To Us"} /></div>
                 </div>
-                <div className="flex w-[64%] flex-wrap gap-3">
+                <div className="flex flex-col md:flex-row md:w-[64%] flex-wrap mt-5 gap-3">
                     {
                         hireDeveloperData1.map((item) => (
                             <HireDeveloperCard1 key={item.id}

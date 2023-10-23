@@ -8,6 +8,7 @@ import { porfolioData, porfolioData1, porfolioData2, porfolioData3 } from '../ut
 export const Portfolio = () => {
     return (
         <Swiper
+            className='-z-10'
             // install Swiper modules
             modules={[Navigation, Autoplay]}
             spaceBetween={0}
@@ -34,7 +35,7 @@ export const Portfolio = () => {
 
 export const Portfolio1 = () => {
     return (
-        <Swiper
+        <Swiper className='-z-10'
             // install Swiper modules
             modules={[Navigation, Autoplay]}
             spaceBetween={0}
@@ -62,6 +63,7 @@ export const Portfolio1 = () => {
 export const Portfolio2 = () => {
     return (
         <Swiper
+            className='-z-10'
             // install Swiper modules
             modules={[Navigation, Autoplay]}
             spaceBetween={0}
@@ -89,6 +91,7 @@ export const Portfolio2 = () => {
 export const Portfolio3 = () => {
     return (
         <Swiper
+            className='-z-10'
             // install Swiper modules
             modules={[Navigation, Autoplay]}
             spaceBetween={0}

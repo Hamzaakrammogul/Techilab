@@ -21,7 +21,8 @@ export default {
         darkSky: 'hsl(174, 78%, 86%)',
         overBlue: 'hsl(231, 100%, 7%)',
         whity: '#FFFFFF',
-        lightGreen: 'hsl(174, 64%, 91%)'
+        lightGreen: 'hsl(174, 64%, 91%)',
+        darkDusty:'hsl(0, 0%, 20%)'
       }
     },
   },

@@ -8,7 +8,7 @@ const MainSection = ({ title, Mddescription, Smdescription }) => {
         <div className="container mx-auto my-24 md:my-36 ">
             <div className="flex flex-col space-y-5 md:space-y-10">
                 <div>
-                    <h1 className="text-4xl md:text-7xl 2xl:text-7xl font-bold text-logoBlue leading-tight">{title}</h1>
+                    <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-bold text-logoBlue leading-tight">{title}</h1>
                 </div>
                 <div>
                     <p className="hidden md:block text-lg md:text-2xl text-logoBlue leading-tight font-semibold">{Mddescription}

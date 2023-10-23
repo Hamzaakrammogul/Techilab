@@ -3,7 +3,6 @@ import { Footer } from './components'
 import './App.css'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Whatsapp from './whatsapp/Whatsapp'
 function App() {
 

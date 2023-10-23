@@ -17,7 +17,7 @@ const OCFramework = () => {
     }
 
     return (
-        <div className='container mx-auto mt-32'>
+        <div className='container hidden md:block mx-auto mt-32'>
             <div className='flex flex-col'>
                 {/* 1st div */}
                 <div className='flex space-x-10 2xl:space-x-5'>

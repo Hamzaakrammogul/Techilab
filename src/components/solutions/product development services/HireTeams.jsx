@@ -42,9 +42,9 @@ const HireTeams = () => {
                     <div>
                         <h1 className="text-5xl text-logoBlue font-semibold">How Techilab Product Strategy Can Help?</h1>
                     </div>
-                    <div className="flex">
+                    <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 ">
                         {hireTeamsData.map((item) => (
-                            <div className="flex flex-col w-1/3 items-center text-center justify-center">
+                            <div className="flex flex-col md:w-1/3 items-center text-center justify-center">
                                 <div className="w-16 h-16 overflow-hidden "> <img src={item.img} alt="" className="" /></div>
                                 <h1 className="text-xl font-semibold text-logoBlue px-16">{item.title}</h1>
                             </div>

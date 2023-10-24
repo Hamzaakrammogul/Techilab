@@ -59,7 +59,7 @@ const HireTeams = () => {
             <div className="container mx-auto" >
                 <div className="flex flex-col space-y-16">
                     <div>
-                        <h1 className="hidden text-5xl text-logoBlue font-semibold">How to start working with the <br />Techilab product development team</h1>
+                        <h1 className="hidden md:block text-5xl text-logoBlue font-semibold">How to start working with the <br />Techilab product development team</h1>
                         <h1 className="text-4xl md:hidden text-logoBlue font-semibold">How to start working with the Techilab product development team</h1>
 
                     </div>

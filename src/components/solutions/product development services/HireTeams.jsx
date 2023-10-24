@@ -44,7 +44,7 @@ const HireTeams = () => {
                     </div>
                     <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 ">
                         {hireTeamsData.map((item) => (
-                            <div className="flex flex-col md:w-1/3 items-center text-center justify-center">
+                            <div key={item.id} className="flex flex-col md:w-1/3 items-center text-center justify-center">
                                 <div className="w-16 h-16 overflow-hidden "> <img src={item.img} alt="" className="" /></div>
                                 <h1 className="text-xl font-semibold text-logoBlue px-16">{item.title}</h1>
                             </div>
@@ -59,11 +59,13 @@ const HireTeams = () => {
             <div className="container mx-auto" >
                 <div className="flex flex-col space-y-16">
                     <div>
-                        <h1 className="text-5xl text-logoBlue font-semibold">How to start working with the <br />Techilab product development team</h1>
+                        <h1 className="hidden text-5xl text-logoBlue font-semibold">How to start working with the <br />Techilab product development team</h1>
+                        <h1 className="text-4xl md:hidden text-logoBlue font-semibold">How to start working with the Techilab product development team</h1>
+
                     </div>
-                    <div className="flex">
+                    <div className="flex flex-col space-y-10 md:space-y-0 md:flex-row">
                         {hireTeamsData1.map((item) => (
-                            <div className="flex flex-col w-1/4 space-y-4 ">
+                            <div key={item.id} className="flex flex-col md:w-1/4 space-y-4 ">
                                 <div className="w-16 h-16 overflow-hidden "> <img src={item.img} alt="" className="" /></div>
                                 <h1 className="text-xl font-semibold text-logoBlue ">{item.title}</h1>
                                 <p>{item.description}</p>
@@ -75,7 +77,7 @@ const HireTeams = () => {
         </div>
         <WCTechilab />
         <div className="container mx-auto flex flex-col space-y-5 mt-32">
-            <div><h1 className="text-5xl text-logoBlue font-semibold">What's next ?</h1></div>
+            <div><h1 className="text-4xl md:text-5xl text-logoBlue font-semibold">What's next ?</h1></div>
             <div className="flex flex-wrap justify-between">
                 {hireTeamsData2.map((item) => (
                     <HireTeamsCard1

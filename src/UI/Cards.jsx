@@ -256,7 +256,7 @@ export const HireTeamsCard1 = ({ subTitle, title, description }) => {
 
     return (
 
-        <div className=" flex flex-col rounded-2xl border-2 border-logoBlue space-y-5 md:w-[32%] px-5 py-5 bg-lightGreen">
+        <div className=" flex flex-col rounded-2xl border-2 border-logoBlue space-y-5 md:w-[32%] px-5 py-5 m-1 md:m-0 bg-lightGreen">
             <div><h1 className="text-2xl text-logoBlue">{subTitle}</h1></div>
             <div><h1 className="text-4xl text-logoBlue font-semibold">{title}</h1></div>
             <div><p className="text-xl text-logoBlue leading-tight">{description}</p></div>

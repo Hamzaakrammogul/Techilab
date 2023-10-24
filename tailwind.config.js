@@ -22,7 +22,7 @@ export default {
         overBlue: 'hsl(231, 100%, 7%)',
         whity: '#FFFFFF',
         lightGreen: 'hsl(174, 64%, 91%)',
-        darkDusty:'hsl(0, 0%, 20%)'
+        darkDusty: 'hsl(0, 0%, 20%)'
       }
     },
   },
